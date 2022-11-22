@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HeroJumbo />
     <AppTitle />
+    <div id="logo">
+      <img alt="Vue logo" src="./assets/logo.png">
+    </div>
+    <HeroJumbo />
   </div>
 </template>
 
@@ -26,6 +28,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 2rem;
+}
+#logo {
+  padding-top: 2rem;
+  background-color: lightgray;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Jumbotron</h1>
+    <h2>Jumbotron</h2>
   </div>
 </template>
 
@@ -12,9 +12,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-h1{
+h2{
   background-color: lightgray;
   height: 20rem;
   width: 100vw;
+  margin: 0;
 }
 </style>
